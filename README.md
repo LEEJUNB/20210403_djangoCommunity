@@ -16,7 +16,7 @@
 
 ## 화면 예시
 <!-- Image -->
-![image description](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9EwyO%2Fbtq0Y4oJvXZ%2FRsEZOnjfGGfRUkcaGpegDk%2Fimg.png)
+![image description](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9EwyO%2Fbtq0Y4oJvXZ%2FRsEZOnjfGGfRUkcaGpegDk%2Fimg.png)<br/>
 [화면 예시 사이트]((https://startbootstrap.com/previews/sb-admin-2))
 
 ## 일정
