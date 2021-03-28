@@ -25,10 +25,11 @@
 ![image description](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9EwyO%2Fbtq0Y4oJvXZ%2FRsEZOnjfGGfRUkcaGpegDk%2Fimg.png)<br/>
 [예시 사이트 URL](https://startbootstrap.com/previews/sb-admin-2)
 
+----------
 ## release
-1.[x] 익명게시판
-2.[] 상세페이지
-3.[] 댓글
-4.[] 로그인 및 로그아웃
-5.[] 자유게시판
-6.[] 프로젝트 정리
+1. [x] 익명게시판
+2. [] 상세페이지
+3. [] 댓글
+4. [] 로그인 및 로그아웃
+5. [] 자유게시판
+6. [] 프로젝트 정리
