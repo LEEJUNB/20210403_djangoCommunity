@@ -1,4 +1,4 @@
-# Project : DjangoCommunity
+# Step 6. Project : DjangoCommunity
 ## What is it?
 - Django 백엔드프레임워크로 만드는 커뮤니티 형태 사이트 만들기
 ------
