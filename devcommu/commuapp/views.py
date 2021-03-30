@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from .forms import PostForm # forms.py의 PostForm객체 불러오기
+from .forms import PostForm, CommentForm # forms.py의 PostForm객체 불러오기
 from .models import Post # models.py로 부터 쿼리셋형태로 Post목록가져옴
 
 def home(request) :
@@ -27,4 +27,8 @@ def postcreate(request) :
 
 def detail(request, post_id) : 
     post_detail = get_object_or_404(Post, pk=post_id)
-    return render(request, 'detail.html', {'post_detail':post_detail})
+    comment_form = CommentForm() # forms.py의 CommentForm클래스
+    return render(request, 'detail.html', {'post_detail':post_detail, 'comment_form':comment_form})
+
+def new_comment(request, post_id) : 
+    return
