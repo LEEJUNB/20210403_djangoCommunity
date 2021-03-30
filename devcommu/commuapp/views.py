@@ -1,9 +1,14 @@
 from django.shortcuts import render, redirect
 from .forms import PostForm # forms.py의 PostForm객체 불러오기
+from .models import Post # models.py로 부터 쿼리셋형태로 Post목록가져옴
 
-# Create your views here.
 def home(request) :
-    return render(request, 'index.html')
+    # 글목록 출력
+    # posts는 쿼리셋 객체
+    # posts = Post.objects.filter().order_by('date') # models.py의 date 오름차순
+    posts = Post.objects.filter().order_by('-date') # models.py의 date 내림차순
+    # posts = Post.objects.all() 
+    return render(request, 'index.html', {'posts':posts})
 
 def postcreate(request) : 
     # request method가 POST
