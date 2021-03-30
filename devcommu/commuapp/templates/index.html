@@ -28,9 +28,8 @@
                                         <!-- views.py의 posts(쿼리셋객체)로 반복 -->
                                         {% for post in posts %}
                                         <tr>
-                                            <!-- models.py > Post 클래스 > views.py에서 posts 쿼리셋으로 변환
-                                                posts이 Post클래스의 변수(title.body,date)사용-->
-                                            <td>{{ post.title }}</td>
+                                            <!-- models.py > Post 클래스 > views.py의 posts쿼리셋-->
+                                            <td><a href="{% url 'detail' post.id %}">{{ post.title }}</a></td>
                                             <td>{{ post.date }}</td>
                                             <td>작성자</td>
                                         </tr>
