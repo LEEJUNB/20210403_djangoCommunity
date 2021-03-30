@@ -30,5 +30,15 @@ def detail(request, post_id) :
     comment_form = CommentForm() # forms.py의 CommentForm클래스
     return render(request, 'detail.html', {'post_detail':post_detail, 'comment_form':comment_form})
 
+# 댓글 저장
 def new_comment(request, post_id) : 
-    return
+    filled_form = CommentForm(request.POST)
+    if filled_form.is_valid() : 
+        # 바로 저장하지 않고
+        finished_form = filled_form.save(commit=False)
+        # models.py > class Comment > post 정보 확인하여 연결된 게시글 확인
+        # 모델객체안에 필요한 정보를 채우고
+        finished_form.post = get_object_or_404(Post, pk=post_id)
+        # 저장한다.
+        finished_form.save()
+    return redirect('detail', post_id) # 댓글작성한 상세페이지로 이동
