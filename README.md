@@ -1,7 +1,11 @@
 # Step 6. Project : DjangoCommunity
 ## What is it?
-- Django 백엔드프레임워크로 만드는 커뮤니티 형태 사이트 만들기
+- Community Site
+- Framwork : Django
+- DB : SQLlite
 ------
+
+
 ## 실행방법
 <!-- Code -->
 1. 가상환경 설치 `python -m venv myvenv`
