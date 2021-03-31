@@ -1,6 +1,5 @@
 # Step 6. Project : DjangoCommunity
-## What is it?
-- Community Site
+## 구성
 - Framwork : Django
 - DB : SQLlite
 ------
