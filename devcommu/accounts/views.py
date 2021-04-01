@@ -21,3 +21,7 @@ def login(request) :
     else : 
         return render(request, 'login.html')
     # login html 띄우기
+
+def logout(request) : 
+    auth.logout(request)
+    return redirect('home')
