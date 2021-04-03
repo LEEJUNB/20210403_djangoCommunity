@@ -1,18 +1,12 @@
 {% extends 'base.html' %}
 
 {% block content %}
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-                    <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-                        For more information about DataTables, please visit the <a target="_blank"
-                            href="https://datatables.net">official DataTables documentation</a>.</p>
-
+                    
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+                            <h6 class="m-0 font-weight-bold text-info">자유게시판</h6>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -31,7 +25,7 @@
                                             <!-- models.py > Post 클래스 > views.py의 posts쿼리셋-->
                                             <td><a href="{% url 'detail' post.id %}">{{ post.title }}</a></td>
                                             <td>{{ post.date }}</td>
-                                            <td>작성자</td>
+                                            <td>익명</td>
                                         </tr>
                                         {% endfor %} 
                                     </tbody>
@@ -39,14 +33,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
                 <!-- /.container-fluid -->
-                        <div class="card-body">
+                        <!-- login 해야만 글작성 가능 -->
+                        {% if user.is_authenticated  %}
                             <a href="{% url 'postcreate' %}" class="btn btn-primary btn-icon-split">
                                 <span class="icon text-white-50">
                                     <i class="fas fa-flag"></i>
                                 </span>
                                 <span class="text">새글쓰기</span>
                             </a>
-                        </div>        
+                        {% endif %}        
 {% endblock %}
