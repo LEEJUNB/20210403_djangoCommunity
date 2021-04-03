@@ -1,15 +1,14 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<h1> 새글 작성 </h1>
-
 <!-- entype : 첨부파일도 넣을 수 있도록 -->
 <form action="" method="POST" enctype="multipart/form-data">
-        {% csrf_token %}
-        <!--table형태의 form인 form.as_table | 만약 일반 form은 form만 쓸 것-->
-        <table>
-            {{form.as_table}}
-        </table>
-        <input type="submit" value="새 글">
+    {% csrf_token %}
+    <!--table형태의 form인 form.as_table | 만약 일반 form은 form만 쓸 것-->
+    <table>
+        {{form.as_p}}
+    </table>
+    <br/>
+    <input type="submit" class="btn btn-success btn-icon-split btn-sm" value="create">
 </form>
 {% endblock %}
