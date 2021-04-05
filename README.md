@@ -14,24 +14,15 @@
 
 ## 주요 기능 [기반 프로젝트](https://github.com/LEEJUNB/DjangoBlog)
 <!-- Table -->
-|date|주요기능|
+|release|주요기능|
 |:--:|:--:|
-||로그인 및 로그아웃|
-||게시글작성/삭제|
-||댓글작성|
-||익명게시판|
-||자유게시판(작성자 아이디기재)|
+|[x]|로그인 및 로그아웃|
+|[x]|게시글작성/삭제|
+|[x]|댓글작성|
+|[x]|익명게시판|
+|[x]|자유게시판(작성자 아이디기재)|
 
 ## 화면 예시
 <!-- Image -->
 ![image description](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9EwyO%2Fbtq0Y4oJvXZ%2FRsEZOnjfGGfRUkcaGpegDk%2Fimg.png)<br/>
 [예시 사이트 URL](https://startbootstrap.com/previews/sb-admin-2)
-
-----------
-## release
-* [x] 로그인 및 로그아웃
-* [x] 게시글 작성 / 삭제
-* [x] 댓글작성
-* [x] 익명게시판
-* [x] 자유게시판
-* [x] 자유게시판
