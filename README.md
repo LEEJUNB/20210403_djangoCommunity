@@ -1,6 +1,6 @@
 # Step 6. Project : DjangoCommunity
 ## 구성
-- Framwork : Django
+- Framwork : django
 - DB : SQLlite
 ------
 
@@ -16,12 +16,11 @@
 <!-- Table -->
 |date|주요기능|
 |:--:|:--:|
-||익명게시판|
+||로그인 및 로그아웃|
 ||상세페이지|
 ||댓글|
-||로그인 및 로그아웃|
+||익명게시판|
 ||자유게시판|
-||프로젝트 정리|
 
 ## 화면 예시
 <!-- Image -->
