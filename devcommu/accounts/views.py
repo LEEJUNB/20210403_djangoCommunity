@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib import auth # login,out을 위해 필수
+from django.contrib.auth.models import User # 유저객체에 새로 생성된 유저 아이디 데이터 추가
 
 def login(request) : 
     # request == POST
@@ -26,5 +27,13 @@ def logout(request) :
     return redirect('home')
 
 # 가입
-def signup(request) : 
+def signup(request):
+    if request.method == "POST":
+        if request.POST['password'] == request.POST['repeat']:
+            # 회원가입 새로운 유저 객체 만들기
+            new_user = User.objects.create_user(username=request.POST['username'], password=request.POST['password'])
+            # 로그인
+            auth.login(request, new_user)
+            # 홈 리다이렉션
+            return redirect('home')
     return render(request, 'register.html')
