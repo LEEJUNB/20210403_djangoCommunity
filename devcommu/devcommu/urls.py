@@ -13,6 +13,7 @@ urlpatterns = [
 
     path('login/', accounts_views.login, name='login'),
     path('logout/', accounts_views.logout, name='logout'),
+    path('signup/', accounts_views.signup, name='signup'),
 
     path('freehome/', views.freehome, name='freehome'), # 자유게시판 목록
     path('freepostcreate', views.freepostcreate, name='freepostcreate'), # 자유게시판 글작성

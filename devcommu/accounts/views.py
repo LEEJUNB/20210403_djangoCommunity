@@ -24,3 +24,7 @@ def login(request) :
 def logout(request) : 
     auth.logout(request)
     return redirect('home')
+
+# 가입
+def signup(request) : 
+    return render(request, 'register.html')
