@@ -28,5 +28,8 @@
 ![image description](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F9EwyO%2Fbtq0Y4oJvXZ%2FRsEZOnjfGGfRUkcaGpegDk%2Fimg.png)<br/>
 [예시 사이트 URL](https://startbootstrap.com/previews/sb-admin-2)
 
+## 학습 내용 정리
+[DataPlanet Blog](https://0ver-grow.tistory.com/category/%E2%97%8F%20Service%20%28Private%29/Django%20Web%202021.02)
+
 ## 확장버전
 [Step.7 Movie API Web](https://github.com/LEEJUNB/API_WebService)
