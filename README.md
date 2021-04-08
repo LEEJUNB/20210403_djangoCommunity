@@ -32,7 +32,7 @@
 ![image description](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FzosV1%2Fbtq1WKaVRgV%2FP01VNJqsjiK8Ee49WSkdbK%2Fimg.png)
 
 *게시글작성 
-![image description](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F1aSrD%2Fbtq1KB6a51T%2FbF7vVEmKXYToFLsCauWfr1%2Fimg.png)
+![image description](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FooEzO%2Fbtq2cl2EA56%2FF1KC9b2Jc6x5UPUccDghgk%2Fimg.png)
 
 <br/>
 [예시 사이트 URL](https://startbootstrap.com/previews/sb-admin-2)
