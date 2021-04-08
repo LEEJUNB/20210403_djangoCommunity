@@ -29,4 +29,4 @@
 [예시 사이트 URL](https://startbootstrap.com/previews/sb-admin-2)
 
 ## 확장버전
-[Step.7 Movie API Web]('https://github.com/LEEJUNB/API_WebService')
+[Step.7 Movie API Web](https://github.com/LEEJUNB/API_WebService)
