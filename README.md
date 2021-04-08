@@ -25,17 +25,13 @@
 
 ## 화면 예시
 <!-- Image -->
-* 홈화면
-![image description](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkNFpb%2Fbtq2b0RZsPz%2F9L9j7XSXj6K6uyDmyrZLk1%2Fimg.png)
+|describe|화면|
+|:--:|:--:|
+|홈화면|<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkNFpb%2Fbtq2b0RZsPz%2F9L9j7XSXj6K6uyDmyrZLk1%2Fimg.png" width="400"><br>홈화면|
+|홈화면|<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FzosV1%2Fbtq1WKaVRgV%2FP01VNJqsjiK8Ee49WSkdbK%2Fimg.png" width="400"><br>홈화면|
+|홈화면|<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FooEzO%2Fbtq2cl2EA56%2FF1KC9b2Jc6x5UPUccDghgk%2Fimg.png" width="400"><br>홈화면|
 
-* 로그인화면
-![image description](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FzosV1%2Fbtq1WKaVRgV%2FP01VNJqsjiK8Ee49WSkdbK%2Fimg.png)
-
-*게시글작성 
-![image description](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FooEzO%2Fbtq2cl2EA56%2FF1KC9b2Jc6x5UPUccDghgk%2Fimg.png)
-
-<br/>
-[예시 사이트 URL](https://startbootstrap.com/previews/sb-admin-2)
+[참고 사이트 URL](https://startbootstrap.com/previews/sb-admin-2)
 
 ## 학습 내용 정리
 [DataPlanet Blog](https://0ver-grow.tistory.com/category/%E2%97%8F%20Service%20%28Private%29/Django%20Web%202021.02)
