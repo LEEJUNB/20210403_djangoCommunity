@@ -1,13 +1,19 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .forms import PostForm, CommentForm ,FreeCommentForm, FreePostForm# forms.py의 PostForm객체 불러오기
 from .models import Post, FreePost # models.py로 부터 쿼리셋형태로 Post목록가져옴
+from django.core.paginator import Paginator # 게시글목록 페이지. 객체 목록을 끊어서 보여줌
 
 def home(request) :
     # 글목록 출력
-    # posts는 쿼리셋 객체
+    # posts는 쿼리셋 객체 목록
     # posts = Post.objects.filter().order_by('date') # models.py의 date 오름차순
     posts = Post.objects.filter().order_by('-date') # models.py의 date 내림차순
     # posts = Post.objects.all() 
+    
+    # 게시글 목록
+    paginator = Paginator(posts, 5) # 게시글 5개 기준으로 자르기
+    pagnum = request.GET.get('page') # page(키)값의 value인 숫자값(페이지넘버)을 pagnum에 가져옴
+    posts = paginator.get_page(pagnum) # 페이지숫자가 get_page에 담김
     return render(request, 'index.html', {'posts':posts})
 
 def postcreate(request) : 
