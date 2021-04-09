@@ -34,13 +34,30 @@
                         </div>
                     </div>
                 <!-- /.container-fluid -->
-                        <!-- login 해야만 글작성 가능 -->
-                        {% if user.is_authenticated  %}
-                            <a href="{% url 'postcreate' %}" class="btn btn-primary btn-icon-split">
-                                <span class="icon text-white-50">
-                                    <i class="fas fa-flag"></i>
-                                </span>
-                                <span class="text">글쓰기</span>
-                            </a>
-                        {% endif %}        
+<!-- login 해야만 글작성 가능 -->
+{% if user.is_authenticated  %}
+    <a href="{% url 'postcreate' %}" class="btn btn-primary btn-icon-split">
+        <span class="icon text-white-50">
+            <i class="fas fa-flag"></i>
+        </span>
+        <span class="text">글쓰기</span>
+    </a>
+{% endif %}
+
+<!-- Pagination-->
+{% if posts.has_previous %}
+<a href="?page=1 "> 1페이지 </a>
+<a href="?page={{posts.previous_page_number}}">이전 페이지</a> <!-- 이전페이지로 가기-->
+{% endif %}
+
+<span> {{ posts.number }} </span> <!-- 현재 페이지 -->
+<span> / </span>
+<span> {{ posts.paginator.num_pages }}</span> <!-- 총페이지수 -->
+
+{% if posts.has_next %}
+<a href="?page={{posts.next_page_number}}">다음 페이지</a>
+<a href="?page={{posts.paginator.num_pages}}">마지막 페이지</a>
+{% endif %}
+
+
 {% endblock %}
