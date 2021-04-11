@@ -28,6 +28,8 @@
 |describe|화면|
 |:--:|:--:|
 |메인홈|<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkNFpb%2Fbtq2b0RZsPz%2F9L9j7XSXj6K6uyDmyrZLk1%2Fimg.png" width="800"><br>메인홈|
+|익명게시판|<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkNFpb%2Fbtq2b0RZsPz%2F9L9j7XSXj6K6uyDmyrZLk1%2Fimg.png" width="800"><br>익명게시판|
+|자유게시판|<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkNFpb%2Fbtq2b0RZsPz%2F9L9j7XSXj6K6uyDmyrZLk1%2Fimg.png" width="800"><br>자유게시판|
 |로그인|<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FzosV1%2Fbtq1WKaVRgV%2FP01VNJqsjiK8Ee49WSkdbK%2Fimg.png" width="800"><br>로그인|
 |글작성|<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FooEzO%2Fbtq2cl2EA56%2FF1KC9b2Jc6x5UPUccDghgk%2Fimg.png" width="800"><br>글작성|
 
